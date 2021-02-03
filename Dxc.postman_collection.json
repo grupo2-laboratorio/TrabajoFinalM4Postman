@@ -33,7 +33,7 @@
 							"  pm.response.to.have.status(200);",
 							"});",
 							"pm.test(\"Respuesta menor a 400ms\", () => {",
-							"  pm.expect(pm.response.responseTime).to.be.below(400);",
+							"  pm.expect(pm.response.responseTime).to.be.below(900);",
 							"});"
 						],
 						"type": "text/javascript"
@@ -85,7 +85,7 @@
 							"  pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test(\"Respuesta menor a 400ms\", () => {\r",
-							"  pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"  pm.expect(pm.response.responseTime).to.be.below(900);\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -138,7 +138,7 @@
 							"  pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test(\"Respuesta menor a 400ms\", () => {\r",
-							"  pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"  pm.expect(pm.response.responseTime).to.be.below(900);\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -187,7 +187,7 @@
 							"  pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test(\"Respuesta menor a 400ms\", () => {\r",
-							"  pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"  pm.expect(pm.response.responseTime).to.be.below(900);\r",
 							"});"
 						],
 						"type": "text/javascript"
